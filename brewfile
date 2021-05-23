@@ -1,0 +1,46 @@
+#taps
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+tap "mongodb/brew"
+
+#dev
+cask "hyper"
+cask "visual-studio-code"
+brew "node"
+brew "awscli"
+brew "mongodb/brew/mongodb-community-shell"
+cask "dash"
+cask "docker"
+cask "dotnet-sdk"
+cask "font-fira-code"
+cask "fluor"
+cask "postman"
+cask "slack"
+cask "cyberduck"
+
+#social
+cask "whatsapp"
+cask "messenger"
+# one day: cask "twitter"
+
+#media
+cask "spotify"
+brew "ffmpeg"
+cask "vlc"
+cask "plex-media-server"
+cask "stremio"
+cask "transmission"
+#cask "vuze" (fucked since BigSur - use Transmission instead)
+
+#productivity, 
+cask "google-chrome"
+cask "google-backup-and-sync"
+cask "avira-antivirus"
+brew "tree"
+# (one day): cask Trello 
+
+#fun
+brew "cmatrix"
+cask "ableton-live-lite"
