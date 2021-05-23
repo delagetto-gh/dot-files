@@ -60,7 +60,7 @@ function syncDotFiles() {
           --exclude "installer.sh" \
           --exclude "README.md" \
           --exclude "LICENSE" \
-          -avh --no-perms . $HOME;
+          -avh --no-perms . ~;
     echo "Synced dotfiles..."
 }
 
