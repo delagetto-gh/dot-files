@@ -1,3 +1,3 @@
 if [ -f ~/.aliases ]; then
-    . ~/. aliases
+    . ~/.aliases
 fi
